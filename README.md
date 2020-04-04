@@ -12,7 +12,7 @@ An array of AI techniques is employed to playing Pac-Man <img src="./assets/Pacm
   - Breadth First Search
   - Depth First Search
   - Uniform Cost Search
-- **Un-informed Search**: 
+- **Uninformed Search**: 
   - A* Search
 - **Adversarial Search**: 
   - Minimax Search
