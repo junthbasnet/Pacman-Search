@@ -1,4 +1,6 @@
-# Pacman Search <img src="./assets/Ghost.PNG" width="33" height="32" border="10">
+<p align="center">
+  <h1>Pacman Search</h1>
+</p>
 <p align="center">
   <img src="https://imgur.com/P22qeZM.gif" border="10">
 </p>
