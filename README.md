@@ -1,5 +1,6 @@
-<p align="center">
-  <h1>Pacman Search</h1>
+  <img src="./assets/Ghost.PNG" border="10">
+ <p align="center">
+   <h1 align="center">Pacman Search</h1>
 </p>
 <p align="center">
   <img src="https://imgur.com/P22qeZM.gif" border="10">
