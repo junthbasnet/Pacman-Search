@@ -21,6 +21,7 @@ An array of AI techniques is employed to playing Pac-Man <img src="./assets/Pacm
 ## 1. Depth First Search
 >  Expand deepest node.
 ```python
+cd Informed and Uninformed Search
 python pacman.py -l mediumMaze -p SearchAgent -z .8 --frameTime 0.05
 ```
 <p align="center">
@@ -30,6 +31,7 @@ python pacman.py -l mediumMaze -p SearchAgent -z .8 --frameTime 0.05
 ## 2. Breadth First Search
 > Expand shallowest node.
 ``` python
+cd Informed and Uninformed Search
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs -z .8 --frameTime 0.05
 ```
 <p align="center">
@@ -39,6 +41,7 @@ python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs -z .8 --frameTime 0.05
 ## 3. Uniform Cost Search
 > Expand least cost node.
 ```python
+cd Informed and Uninformed Search
 python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs -z .8 --frameTime 0.05
 ```
 <p align="center">
@@ -48,6 +51,7 @@ python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs -z .8 --frameTime 0.05
 ## 4. A* Search
 > Minimize the total estimated solution cost.
 ```python
+cd Informed and Uninformed Search
 python pacman.py -l mediumMaze -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic -z .8 --frameTime 0.05
 ```
 <p align="center">
@@ -57,6 +61,7 @@ python pacman.py -l mediumMaze -p SearchAgent -a fn=astar,heuristic=manhattanHeu
 ## 5. Adversarial Search (Minimax)
 > Max maximizes results, Min minimizes results. Compute each node’s minimax value’s the best achievable utility against an optimal adversary.
 ``` python
+cd Adversarial Search
 python pacman.py -p MinimaxAgent -l smallClassic -a depth=2 --frameTime 0
 ```
 <p align="center">
@@ -66,6 +71,7 @@ python pacman.py -p MinimaxAgent -l smallClassic -a depth=2 --frameTime 0
 ## 6. Alpha-Beta Pruning
 > Minimax: generates the entire game search space. Alpha-Beta algorithm: prune large chunks of the trees.
 ``` python
+cd Adversarial Search
 python pacman.py -p AlphaBetaAgent -l smallClassic -a depth=3 --frameTime 0
 ```
 <p align="center">
