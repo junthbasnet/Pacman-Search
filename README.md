@@ -68,6 +68,10 @@ python pacman.py -p MinimaxAgent -l smallClassic -a depth=2 --frameTime 0
   <img src="./assets/PacmanMiniMax.gif" width="550" height="323" border="10">
 </p>
 
+```python
+If you lose, try increasing depth because depth matters.
+```
+
 ## 6. Alpha-Beta Pruning
 > Minimax: generates the entire game search space. Alpha-Beta algorithm: prune large chunks of the trees.
 ``` python
@@ -77,6 +81,10 @@ python pacman.py -p AlphaBetaAgent -l smallClassic -a depth=3 --frameTime 0
 <p align="center">
   <img src="./assets/PacmanAplhaBeta.gif" width="550" height="323" border="10">
 </p>
+
+```python
+If you lose, try increasing depth because depth matters.
+```
 
 ## References
 [UC Berkeley's introductory artificial intelligence course, CS 188.](http://ai.berkeley.edu/home.html)
